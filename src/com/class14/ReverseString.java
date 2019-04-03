@@ -25,9 +25,8 @@ public class ReverseString {
 		
 		//substring
 		String reverse2="";
-		org.substring(0);
-		for(int i=org.length()-1;i>=0;i--) {
-			reverse2=reverse2+org.substring(i);
+		for(int i=org.length();i>0;i--) {
+			reverse2=reverse2+org.substring(i-1, i);
 		}
 		System.out.println("Reversed String #3 is: "+reverse2);
 	}
