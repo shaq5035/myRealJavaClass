@@ -1,14 +1,19 @@
 package com.class16;
 import java.util.Scanner;
 public class Task3Palindrome {
-	String reverse,str;
+	String str;
 	Scanner input=new Scanner(System.in);
+	//////////////////////////
 	
 	public static void main(String[] args) {
 		Task3Palindrome obj=new Task3Palindrome();
-		obj.hello("");
+		obj.hello("");// 
 		
+		///////////////////////////
 	}
+	
+	//void is a return type, hello - method name76
+
 	void hello(String word) {
 		 System.out.println("Enter any string");
 		    
