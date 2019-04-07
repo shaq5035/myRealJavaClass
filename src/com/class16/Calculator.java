@@ -1,11 +1,8 @@
 package com.class16;
 
-//import java.util.Scanner;
-
 public class Calculator {
 
 	public static void main(String[] args) {
-//		Scanner in=new Scanner(System.in);
 		Calculator str = new Calculator();
 
 	}
@@ -38,6 +35,6 @@ public class Calculator {
  * return x/y;
  * }
  * int mult(int x, int y){
- * return x*y;s
+ * return x*y;ss
  * }
  */
