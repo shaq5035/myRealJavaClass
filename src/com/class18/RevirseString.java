@@ -2,6 +2,11 @@ package com.class18;
 
 public class RevirseString {
 
+	private String name="john";
+	String name1="bilal";
+	protected String name2="shaban";
+	public String name3="weqas";
+	
 	public static void main(String[] args) {
 		RevirseString str = new RevirseString();
 		System.out.println(str.revirse("Hello"));
@@ -14,7 +19,7 @@ System.out.println(str.word("aint nobody tell me nothing"));
 		
 	}
 	
-	String revirse(String word) {
+	protected String revirse(String word) {
 		String rev = "";
 		for (int i = word.length() - 1; i >= 0; i--) {
 			rev = rev + word.charAt(i);
@@ -53,6 +58,11 @@ System.out.println(str.word("aint nobody tell me nothing"));
 		return array;
 
 		// task 3
+	}
+	
+	
+	void sayHello() {
+		System.out.println("Hello Student");
 	}
 }
 
